@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://coder-aayush.github.io/hugo-coder/about/</loc>
+    <lastmod>2020-08-10T15:49:03+05:45</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://coder-aayush.github.io/hugo-coder/posts/how-to-use-ab-hugo-theme/</loc>
+    <lastmod>2020-08-10T15:48:44+05:45</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://coder-aayush.github.io/hugo-coder/</loc>
+    <lastmod>2020-08-10T15:48:44+05:45</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://coder-aayush.github.io/hugo-coder/posts/</loc>
+    <lastmod>2020-08-10T15:48:44+05:45</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://coder-aayush.github.io/hugo-coder/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://coder-aayush.github.io/hugo-coder/tags/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Coder</title>
+    <link>https://coder-aayush.github.io/hugo-coder/</link>
+    <description>Recent content on Hugo Coder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Aug 2020 15:48:44 +0545</lastBuildDate>
+    
+	<atom:link href="https://coder-aayush.github.io/hugo-coder/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://coder-aayush.github.io/hugo-coder/about/</link>
+      <pubDate>Mon, 10 Aug 2020 15:49:03 +0545</pubDate>
+      
+      <guid>https://coder-aayush.github.io/hugo-coder/about/</guid>
+      <description>Hello, I am glad to see you here.</description>
+    </item>
+    
+    <item>
+      <title>How to Use Ab Hugo Theme</title>
+      <link>https://coder-aayush.github.io/hugo-coder/posts/how-to-use-ab-hugo-theme/</link>
+      <pubDate>Mon, 10 Aug 2020 15:48:44 +0545</pubDate>
+      
+      <guid>https://coder-aayush.github.io/hugo-coder/posts/how-to-use-ab-hugo-theme/</guid>
+      <description>AB Hugo Theme is the theme made with hugo which is static site generator made unpon Golang Programming Language.
+Advantage of using AB Hugo Theme  Fast Responsive SEO Friendly Easy Customization Unique Design and many more.  How to Use this theme Create Hugo Project
+Hugo new site &amp;lt;project name&amp;gt;Make sure you have hugo install. For installing hugo check Hugo Documentation
+At the root of your Hugo project, run:</description>
+    </item>
+    
+  </channel>
+</rss>

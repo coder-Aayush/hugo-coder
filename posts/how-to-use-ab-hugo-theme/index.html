@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>How to Use Ab Hugo Theme</title><meta name="title" content="How to Use Ab Hugo Theme" />
+<link rel="icon" type="image/png" href="/images/favicon.ico" />
+<meta
+  name="description"
+  content="AB Hugo Theme is the theme made with hugo which is static site generator made unpon Golang Programming Language. …"
+/>
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://coder-aayush.github.io/hugo-coder/" />
+<meta property="og:title" content="How to Use Ab Hugo Theme" />
+<meta property="og:image" content="https://coder-aayush.github.io/images/hugo-Coder-png" />
+<meta
+  property="og:description"
+  content="AB Hugo Theme is the theme made with hugo which is static site generator made unpon Golang Programming Language. …"
+/>
+<meta property="twitter:url" content="https://coder-aayush.github.io/hugo-coder/" />
+<meta property="twitter:title" content="How to Use Ab Hugo Theme" />
+<meta
+  property="twitter:description"
+  content="AB Hugo Theme is the theme made with hugo which is static site generator made unpon Golang Programming Language. …"
+/>
+<meta name="author" content="Aayush Bhattarai" />
+
+
+
+<link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" type="text/css" href="/css/index.css" />
+  <link rel="stylesheet" type="text/css" href="/css/blog.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://coder-aayush.github.io/hugo-coder/" title="Hugo Coder"
+      >Hugo Coder
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#theme-navigation"
+      aria-controls="theme-navigation"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="theme-navigation">
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="https://coder-aayush.github.io/hugo-coder/"
+            >Home</a
+          >
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/hugo-coder/about/">About</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://gohugo.io/">Hugo</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/coder-Aayush">Work</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="content">
+<div class="sizedbox__60"></div>
+<section id="content">
+  <div class="container text-light">
+    <h3>How to Use Ab Hugo Theme</h3>
+    <div class="content__box">
+      <div class="sizedbox__20"></div>
+      <p class="content">
+        <p>AB Hugo Theme is the theme made with hugo which is static site generator made unpon Golang Programming Language.</p>
+<h3 id="advantage-of-using-ab-hugo-theme">Advantage of using AB Hugo Theme</h3>
+<ul>
+<li>Fast</li>
+<li>Responsive</li>
+<li>SEO Friendly</li>
+<li>Easy Customization</li>
+<li>Unique Design</li>
+<li>and many more.</li>
+</ul>
+<h3 id="how-to-use-this-theme">How to Use this theme</h3>
+<p>Create Hugo Project</p>
+<pre><code>Hugo new site &lt;project name&gt;
+</code></pre><p>Make sure you have hugo install. For installing hugo check <a href="https://gohugo.io/getting-started/installing#readout">Hugo Documentation</a></p>
+<p>At the root of your Hugo project, run:</p>
+<pre><code>git submodule add https://github.com/coder-Aayush/ab-hugo-theme themes/ab-hugo-theme
+</code></pre><p>Add <strong>AB HUGO Theme</strong> at you <em>config.tomol</em> file.</p>
+<pre><code>theme = &quot;ab-hugo-theme&quot;
+</code></pre><p>Next, copy the contents of the <a href="exampleSite/config.tomol">config.tomol</a> to your site&rsquo;s config.toml. Make sure to read all the comments.</p>
+<p>Finally, Run</p>
+<pre><code>hugo server -D
+</code></pre><p><strong>Note: If you are seeing a blank page it is probably because you have nothing in your content/ directory. Read on to fix that.</strong></p>
+<p>###Configuring the Home Page
+In the <strong>config.tomol</strong> file you can customize homepage.</p>
+<pre><code>title = &quot;Title of Your Website&quot;
+</code></pre><p>You can always override all the template in <strong>layouts folder</strong></p>
+<h3 id="confugring-paramaters">Confugring Paramaters</h3>
+<p>This paramaters are all over the site. If you don&rsquo;t like confuging just copy &amp; paste as same.</p>
+<pre><code>[params]
+  bio = &quot;I am Hugo Coder&quot;
+  discription = &quot;Hola I am aayush&quot;
+  author = &quot;Aayush Bhattarai&quot;
+  showcredit = true
+  favicon = &quot;/img/ab-hugo-coder.ico&quot;
+  featuredImage = &quot;&quot; # add Featured Image inside /assets/images and your path be like /images/filename.jpg
+  disqusShortname = &quot;&quot; # get username from disqus
+  showComment = true # either true or false
+</code></pre><p><strong>Note Add your Images inside <em>/assets/images</em> and path must be <em>/images/filename.jpg</em>* Must contain &ldquo;/&rdquo; at front of filename</strong></p>
+<h3 id="social-icons">Social Icons</h3>
+<p>In your <em>config.tomol</em> file add</p>
+<pre><code>[[params.social]]
+        url   = &quot;https://twitter.com/&quot;
+        icon  = &quot;twitter&quot;
+    [[params.social]]
+        url   = &quot;https://facebook.com/&quot;
+        icon  = &quot;facebook-f&quot;
+    [[params.social]]
+        url = &quot;mailto:youremail@email.com&quot;  # For a direct email link, use &quot;mailto:test@example.org&quot;.
+        icon = &quot;paper-plane&quot;
+</code></pre><p><strong>Note: Use Icon From <a href="https://fontawesome.com/v4.7.0/icons/">Font Awesome</a></strong></p>
+<h3 id="creating-blog-post">Creating Blog Post</h3>
+<p>You can create a new blog post page by going to the root of your project and typing:</p>
+<pre><code>hugo new posts/&lt;my-lifestyle-post&gt;.md
+</code></pre><p><strong>Note: You Must Type <em>Posts</em> and Your FileName. If You don&rsquo;t do so, then Your Post is not Visiable</strong></p>
+<p>Now Open <strong>content/posts<!-- raw HTML omitted -->.md file and start writing post. <a href="https://guides.github.com/features/mastering-markdown/">Learn markdown Here</a></strong></p>
+<h3 id="creating-about-page-and-other-pages">Creating About Page and Other Pages</h3>
+<p>You can simply create about page using this command.</p>
+<pre><code>hugo new about.md
+</code></pre><p><strong>Note: Here you shouldn&rsquo;t write <em>posts</em> path. You can also add other file just using this command.</strong></p>
+<p>Example</p>
+<pre><code>hugo new gallery.md
+</code></pre><h3 id="displaying-other-pages-in-menunav">Displaying Other Pages in Menu/Nav</h3>
+<p>For Displaying Your other files like <em>gallery.md</em>, Open <em>config.tomol file and type</em></p>
+<pre><code>[[menu.main]]
+name = &quot;Gallery&quot;
+url = &quot;/gallery/&quot;
+# add  more same like this...
+
+[[menu.main]]
+name = &quot;About&quot;
+url = &quot;/about/&quot;
+
+[[menu.main]]
+name = &quot;GitHub&quot;
+url = &quot;https://github.com/coder-Aayush&quot;
+</code></pre><h3 id="adding-favicon">Adding Favicon</h3>
+<p>Add you favicon at <em>static/img</em> also yo need to add in <em>config.tomol</em> file</p>
+<pre><code class="language-hugo" data-lang="hugo">[params]
+  ....
+  favicon = &quot;/img/ab-hugo-coder.ico&quot; #must start with &quot;/&quot;
+  ....
+</code></pre><p>You can also Add Featured Image same as above.
+This is the confugration for <strong>AB Hugo Theme.</strong> For more you can see <a href="">config.tomol</a></p>
+
+      </p>
+    </div>
+    <div class="sizedbox__60"></div>
+    
+
+  </div>
+</section>
+<div class="sizedbox__60"></div>
+
+    </div><div class="sizedbox__60"></div>
+<footer class="text-center text-light">
+  <p>&copy; Hugo Coder 2020</p>
+  
+  <p>
+    Made with <i class="fa fa-heart"></i> by
+    <a href="https://github.com/coder-Aayush" class="text-light" target="_blank"
+      >Aayush</a
+    >
+  </p>
+  
+</footer>
+<div class="sizedbox__10"></div>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+<script src="/js/disqus.js"></script>
+</body>
+</html>
