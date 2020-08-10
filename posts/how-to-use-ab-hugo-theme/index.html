@@ -7,7 +7,7 @@
 <link rel="icon" type="image/png" href="https://coder-aayush.github.io/hugo-coder/images/favicon.ico" />
 <meta
   name="description"
-  content="AB Hugo Theme is the theme made with hugo which is static site generator made unpon Golang Programming Language. …"
+  content="AB Hugo Theme is the theme made with Hugo, which is a static site generator made upon Golang Programming Language. …"
 />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://coder-aayush.github.io/hugo-coder/" />
@@ -15,13 +15,13 @@
 <meta property="og:image" content="https://coder-aayush.github.io/hugo-coder/images/Hugo-Coder.png" />
 <meta
   property="og:description"
-  content="AB Hugo Theme is the theme made with hugo which is static site generator made unpon Golang Programming Language. …"
+  content="AB Hugo Theme is the theme made with Hugo, which is a static site generator made upon Golang Programming Language. …"
 />
 <meta property="twitter:url" content="https://coder-aayush.github.io/hugo-coder/" />
 <meta property="twitter:title" content="How to Use Ab Hugo Theme" />
 <meta
   property="twitter:description"
-  content="AB Hugo Theme is the theme made with hugo which is static site generator made unpon Golang Programming Language. …"
+  content="AB Hugo Theme is the theme made with Hugo, which is a static site generator made upon Golang Programming Language. …"
 />
 <meta name="author" content="Aayush Bhattarai" />
 
@@ -100,7 +100,7 @@
     <div class="content__box">
       <div class="sizedbox__20"></div>
       <p class="content">
-        <p>AB Hugo Theme is the theme made with hugo which is static site generator made unpon Golang Programming Language.</p>
+        <p>AB Hugo Theme is the theme made with Hugo, which is a static site generator made upon Golang Programming Language.</p>
 <h3 id="advantage-of-using-ab-hugo-theme">Advantage of using AB Hugo Theme</h3>
 <ul>
 <li>Fast</li>
@@ -113,17 +113,17 @@
 <h3 id="how-to-use-this-theme">How to Use this theme</h3>
 <p>Create Hugo Project</p>
 <pre><code>Hugo new site &lt;project name&gt;
-</code></pre><p>Make sure you have hugo install. For installing hugo check <a href="https://gohugo.io/getting-started/installing#readout">Hugo Documentation</a></p>
+</code></pre><p>Make sure you have hugo install. For installing Hugo check <a href="https://gohugo.io/getting-started/installing#readout">Hugo Documentation</a></p>
 <p>At the root of your Hugo project, run:</p>
 <pre><code>git submodule add https://github.com/coder-Aayush/ab-hugo-theme themes/ab-hugo-theme
-</code></pre><p>Add <strong>AB HUGO Theme</strong> at you <em>config.tomol</em> file.</p>
+</code></pre><p>Add <strong>AB HUGO Theme</strong> at you <em>config.toml</em> file.</p>
 <pre><code>theme = &quot;ab-hugo-theme&quot;
-</code></pre><p>Next, copy the contents of the <a href="exampleSite/config.tomol">config.tomol</a> to your site&rsquo;s config.toml. Make sure to read all the comments.</p>
+</code></pre><p>Next, copy the contents of the <a href="exampleSite/config.toml">config.toml</a> to your site&rsquo;s config.toml. Make sure to read all the comments.</p>
 <p>Finally, Run</p>
 <pre><code>hugo server -D
-</code></pre><p><strong>Note: If you are seeing a blank page it is probably because you have nothing in your content/ directory. Read on to fix that.</strong></p>
+</code></pre><p><strong>Note: Note: If you see a blank page, it is probably because you have nothing in your content/ directory. Read on to fix that.</strong></p>
 <h3 id="configuring-the-home-page">Configuring the Home Page</h3>
-<p>In the <strong>config.tomol</strong> file you can customize homepage.</p>
+<p>In the <strong>config.toml</strong> file you can customize homepage.</p>
 <pre><code>title = &quot;Title of Your Website&quot;
 </code></pre><p>You can always override all the template in <strong>layouts folder</strong></p>
 <h3 id="confugring-paramaters">Confugring Paramaters</h3>
@@ -139,7 +139,7 @@
   showComment = true # either true or false
 </code></pre><p><strong>Note Add your Images inside <em>assets/images</em> and path must be <em>images/filename.jpg</em></strong></p>
 <h3 id="social-icons">Social Icons</h3>
-<p>In your <em>config.tomol</em> file add</p>
+<p>In your <em>config.toml</em> file add</p>
 <pre><code>[[params.social]]
         url   = &quot;https://twitter.com/&quot;
         icon  = &quot;twitter&quot;
@@ -150,10 +150,10 @@
         url = &quot;mailto:youremail@email.com&quot;  # For a direct email link, use &quot;mailto:test@example.org&quot;.
         icon = &quot;paper-plane&quot;
 </code></pre><p><strong>Note: Use Icon From <a href="https://fontawesome.com/v4.7.0/icons/">Font Awesome</a></strong></p>
-<h3 id="creating-blog-post">Creating Blog Post</h3>
+<h3 id="creating-a-blog-post">Creating a Blog Post</h3>
 <p>You can create a new blog post page by going to the root of your project and typing:</p>
 <pre><code>hugo new posts/&lt;my-lifestyle-post&gt;.md
-</code></pre><p><strong>Note: You Must Type <em>Posts</em> and Your FileName. If You don&rsquo;t do so, then Your Post is not Visiable</strong></p>
+</code></pre><p><strong>Note: You Must Type <em>Posts</em> and Your FileName. If You don&rsquo;t do so, then Your Post is not Visible</strong></p>
 <p>Now Open <strong>content/posts<!-- raw HTML omitted -->.md file and start writing post. <a href="https://guides.github.com/features/mastering-markdown/">Learn markdown Here</a></strong></p>
 <h3 id="creating-about-page-and-other-pages">Creating About Page and Other Pages</h3>
 <p>You can simply create about page using this command.</p>
@@ -162,7 +162,7 @@
 <p>Example</p>
 <pre><code>hugo new gallery.md
 </code></pre><h3 id="displaying-other-pages-in-menunav">Displaying Other Pages in Menu/Nav</h3>
-<p>For Displaying Your other files like <em>gallery.md</em>, Open <em>config.tomol file and type</em></p>
+<p>For Displaying Your other files like <em>gallery.md</em>, Open <em>config.toml file and type</em></p>
 <pre><code>[[menu.main]]
 name = &quot;Gallery&quot;
 url = &quot;/gallery/&quot;
@@ -176,13 +176,13 @@ url = &quot;/about/&quot;
 name = &quot;GitHub&quot;
 url = &quot;https://github.com/coder-Aayush&quot;
 </code></pre><h3 id="adding-favicon">Adding Favicon</h3>
-<p>Add you favicon at <em>static/img</em> also yo need to add in <em>config.tomol</em> file</p>
+<p>Add you favicon at <em>static/img</em> also yo need to add in <em>config.toml</em> file</p>
 <pre><code class="language-hugo" data-lang="hugo">[params]
   ....
   favicon = &quot;/img/ab-hugo-coder.ico&quot;
   ....
-</code></pre><p>You can also Add Featured Image same as above.
-This is the confugration for <strong>AB Hugo Theme.</strong> For more you can see <a href="">config.tomol</a></p>
+</code></pre><p>You can also add Featured Image same as above.
+This is the configuration for <strong>AB Hugo Theme.</strong> For more you can see <a href="">config.toml</a></p>
 
       </p>
     </div>

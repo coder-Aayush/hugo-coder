@@ -26,9 +26,9 @@
       <pubDate>Mon, 10 Aug 2020 15:48:44 +0545</pubDate>
       
       <guid>https://coder-aayush.github.io/hugo-coder/posts/how-to-use-ab-hugo-theme/</guid>
-      <description>AB Hugo Theme is the theme made with hugo which is static site generator made unpon Golang Programming Language.
+      <description>AB Hugo Theme is the theme made with Hugo, which is a static site generator made upon Golang Programming Language.
 Advantage of using AB Hugo Theme  Fast Responsive SEO Friendly Easy Customization Unique Design and many more.  How to Use this theme Create Hugo Project
-Hugo new site &amp;lt;project name&amp;gt;Make sure you have hugo install. For installing hugo check Hugo Documentation
+Hugo new site &amp;lt;project name&amp;gt;Make sure you have hugo install. For installing Hugo check Hugo Documentation
 At the root of your Hugo project, run:</description>
     </item>
     
